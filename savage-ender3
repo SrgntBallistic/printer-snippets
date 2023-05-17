@@ -1,0 +1,8 @@
+Nozzle wipe start G-Code
+G1 X87 Y-3 Z7 F8000.0; Position to nozzle wiper
+G1 X87 Y-3 Z2 F8000.0; Lower Nozzle
+G1 X123 Y-3 Z0 F8000.0; Wipe L-R
+G1 X87 Y-3 Z0 F8000.0; Wipe R-L
+G1 X123 Y-3 Z0 F8000.0; Wipe L-R
+G1 X87 Y-3 Z0 F8000.0; Wipe R-L
+G1 X87 Y0 Z10 F8000.0; Raise Nozzle
